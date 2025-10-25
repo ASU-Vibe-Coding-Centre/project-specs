@@ -5,7 +5,7 @@ The primary goal of this project is to develop a sophisticated, proof-of-concept
 
 ## Key Objectives:
 
-**Build a Multi-Agent System**: Create a hierarchical agent workflow where a central orchestrator intelligently routes user queries to specialized worker agents.  
+**Build a Multi-Agent System**: Create a hierarchical agent workflow where a central supervisor intelligently routes user queries to specialized worker agents.  
 
 **Implement Advanced Retrieval**: Showcase different augmented generation strategies (RAG, CAG, and Hybrid) tailored to the specific needs of each specialized agent.
 
@@ -24,7 +24,7 @@ The MVP will be a fully functional chat application that fulfills the core objec
 
 **Stateful Agentic Core**: An agentic workflow built with LangGraph that manages the conversation state, including chat history and session-specific context.  
 
-**Orchestrator Agent**: A supervisor agent responsible for analyzing incoming queries and routing them to the appropriate worker agent.   
+**Supervisor Agent**: A supervisor agent responsible for analyzing incoming queries and routing them to the appropriate worker agent.   
 
 **Specialized Worker Agents**:
 * **Billing Support Agent**: Implements a Hybrid RAG/CAG model to answer questions about pricing and invoices, caching static policy information for the session after an initial RAG query.
